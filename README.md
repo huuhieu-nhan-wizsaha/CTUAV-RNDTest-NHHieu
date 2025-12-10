@@ -12,18 +12,31 @@ Dự án này tập trung vào việc nghiên cứu và triển khai giải phá
 
 Cấu trúc thư mục gốc của dự án được tổ chức như sau:
 RnD_FSODforAI/ 
+
     ├── dataset/
+    
         ├── test/ 
+        
             ├── images/ 
+            
             └── annotations/ 
+            
         └── train/  
+        
             ├── images/ 
+            
             └── annotations/ 
+            
     ├── src/ 
-        ├── RnD_FSODforAI.ipynb (Chứa mã nguồn chính của mô hình, helper scripts, v.v.) 
+    
+        ├── RnD_FSODforAI.ipynb (Chứa mã nguồn chính của mô hình, v.v.) 
+        
         └── prepare_data.py
+        
     ├── others/ 
+    
     ├── CTUAV_RNDTest_NHHieu_Report.pdf 
+    
     └── README.md
 
 ## 3. Hướng dẫn Chạy và Thử nghiệm
